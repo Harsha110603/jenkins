@@ -4,6 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+                echo 'Additional change'
                 echo 'Building automatically again '
             }
         }
